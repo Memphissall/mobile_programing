@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:latihan/latihan/pages/page2.dart';
 
 class page2 extends StatelessWidget {
   const page2({super.key});
@@ -13,6 +14,14 @@ class page2 extends StatelessWidget {
 
       ),
       body: Center(child: Text("Ini halaman kedua")),
+      floatingActionButton: FloatingActionButton(
+      onPressed: () {
+        Navigator.pushReplacementNamed(context, "/halaman2");
+      },
+      child: Icon(Icons.arrow_back),
+      ),
+      floatingActionButtonLocation: 
+      FloatingActionButtonLocation.centerFloat,
       );
   }
 }
