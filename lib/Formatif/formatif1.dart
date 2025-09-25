@@ -15,8 +15,40 @@ class formatif extends StatelessWidget {
         child: Container(
           width: 300,
           height: 150,
-          color: Colors.purple,
-           // hanya warna ungu dulu
+          padding: EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: Colors.purple,
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                "Next Workout",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 12,
+                ),
+              ),
+              SizedBox(height: 7),
+              Text(
+                "Lets Toning",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                "and Glutes Workout",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );
