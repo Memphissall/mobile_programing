@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:latihan/latihan/pages/page1.dart';
 //import 'package:latihan/latihan/foto.dart';
 //import 'package:latihan/latihan/loyout.dart';
 //import 'package:latihan/latihan/ekspand.dart';
 //import 'package:latihan/latihan/gambar.dart';
 //import 'package:latihan/latihan/stak.dart';
-import 'package:latihan/tugas/masjid.dart';
+//import 'package:latihan/tugas/masjid.dart';
 
 
 void main(List<String> args) {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: foto());
+    return MaterialApp(home: page1());
 
   }
 }
