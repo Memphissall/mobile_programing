@@ -46,11 +46,37 @@ class formatif extends StatelessWidget {
                   fontSize: 12,
                   fontWeight: FontWeight.bold,
                 ),
-              )
+              ),
+              SizedBox(height: 30),
+              Row(
+                children: [
+                  Icon(Icons.timer, color: Colors.amber,size: 18),
+                  SizedBox(width: 6),
+                  Text(
+                    "60 Men",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 14,
+                    ),
+                  ),
+                  SizedBox(width: 12),
+Container(
+  width: 20,
+  height: 20,
+  decoration: BoxDecoration(color: Colors.white,shape: BoxShape.circle),
+  child: Icon(Icons.play_arrow,color:Colors.purple,size: 10),
+
+)
+
+                ],
+              ),
             ],
           ),
         ),
       ),
+
+
+
     );
   }
 }
